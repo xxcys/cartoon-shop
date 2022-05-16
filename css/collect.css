@@ -1,0 +1,94 @@
+.collBody{
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.product {
+	border: 1px solid #ddd;
+	
+}
+
+.product:hover {
+	border: 1px solid #E4606D;
+	/* margin-top: 5px; */
+}
+
+.product-image {
+	position: relative;
+	overflow: hidden;
+}
+
+.product-image img {
+	width: 100%;
+}
+
+.product-image .find {
+	position: absolute;
+	left: 0px;
+	bottom: -36px;
+	display: block;
+	width: 100%;
+	line-height: 35px;
+	background-color: #666;
+	transition: bottom 0.5s;
+}
+
+.product-image .find a {
+	display: inline-block;
+	width: 32%;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+.product-image .find a.same {
+	float: left;
+}
+
+.product-image .find a.similar {
+	/* float: right; */
+}
+
+.product-image .find a.delect {
+	float: right;
+	border: none;
+}
+
+.product-image:hover .find{
+	bottom: 0px;
+}
+
+.product-image:hover .find a.same,.similar {
+	border-right: 1px solid #fff;
+}
+
+.product-content {
+	height: 100px;
+	padding: 5px 10px;
+}
+
+.product-content .price {
+	font-size: 18px;
+	color: #f00;
+}
+
+.product-content a {
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+}
+
+.product-content a:hover {
+	color: #E4606D;
+	text-decoration: underline;
+}
+
+.title a{
+	width: 100%;
+	display: block;
+	height: 50px;
+	/* border: 1px solid #BEE5EB; */
+	/* overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap; */
+}

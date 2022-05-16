@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">				
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Popper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.bigbox{
+				width: 100%;
+				height:560px;
+				background: url(images/login.jpg) -350px ;
+				/* opacity:0.7;
+				filter:alpha(opacity=70);
+				-webkit-filter: blur(1px); /* Chrome, Safari, Opera */
+				/* filter: blur(1px); */
+				position: relative;
+			}
+			.bigbox form{
+				width: 350px;
+				height: 350px;
+				display: block;
+				/* padding-top: 80px; */
+				padding: 0 20px;
+				color: #333;
+				background-color: #fff;
+				border: 1px solid #eee;
+				border-radius: 5px;
+				position: absolute;
+				top: 100px;
+				right: 30px;
+			}
+			.bigbox form h3{
+				text-align: center;
+				padding: 20px 0 0 0;
+				font-size: 24px;
+			}
+			
+			.bigbox form button{
+				display: block;
+				width: 310px;
+				margin-top: 20px;
+			}
+			.rem{
+				padding-top:30px ;
+				float: left;
+			}
+			.inp{
+				margin: 30px 0 0 0;
+				/* border: 2px solid red; */
+			}
+			.bigbox form .rig{
+				padding-top:30px ;
+				float: right;
+			}
+			.bigbox form a{
+				color: #000;
+			}
+			.bigbox form a:hover{
+				color: #E4606D;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<!-- 头部 -->			
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+			  <a class="navbar-brand" href="#"><img src="images/logo.jpg" width="60px"></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="index.html">首页 <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="groay.html">商品分类</a>
+			      </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="shopCard.html">购物车</a>
+				  </li>
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+					    同人社区
+					  </a>
+					  <div class="dropdown-menu">
+					    <a class="dropdown-item" href="community.html">主页</a>
+					    <a class="dropdown-item" href="#">小说</a>
+					  </div>
+					</li>
+				  <!-- Dropdown -->
+			    <li class="nav-item dropdown">
+			      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+			        收藏夹
+			      </a>
+			      <div class="dropdown-menu">
+			        <a class="dropdown-item" href="#">收藏的宝贝</a>
+			        <a class="dropdown-item" href="#">收藏的店铺</a>
+			      </div>
+			    </li>
+			       
+			    </ul>
+				<ul class="navbar-nav ml-auto">
+					<!-- <li class="nav-item">
+					  <a class="nav-link" href="log.html" style="display: inline-block;">登录</a>/
+					 <a class="nav-link" href="register.html" style="display: inline-block;"> 注册</a>
+					</li> -->
+					<li class="nav-item">
+							 <a class="nav-link" href="#">联系客服</a>
+					</li>
+				</ul>
+			  </div>
+			</nav>
+			
+		</div>
+		<div class="bigbox">
+			<div class="container">
+				<form action="" method="">
+					<h3>登录</h3>
+					<div class="form-group inp">
+						<input type="text" name="username" id="username" value="" class="form-control" id="formGroup1" placeholder="请输入您的账号"/>
+					</div>
+					<div class="form-group inp">
+						<input type="password" name="username" id="username" value="" class="form-control" id="formGroup2" placeholder="请输入密码"/>
+					</div>
+					<button type="submit" class="btn btn-dark">登录</button>
+					<div class="form-group form-check rem">
+						<input type="checkbox"  value="" class="form-check-input" id="check"/>
+						<label class="form-check-label" for="check">记住我</label>
+					</div>
+					<div class="rig">
+						<a href="register.html">注册</a>
+						<a href="register.html">忘记密码</a>
+					</div>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<div style="height: 250px; background: #333333;background: url(images/footbg.jpg);">
+			
+					<nav class="navbar navbar-expand-sm navbar-dark justify-content-center">
+					  <ul class="navbar-nav">
+						<li class="nav-item Example ofaddress-book firli">			
+						  <a class="nav-link fira" href="#">
+							 <span class="fa fa-group fa-2x" style="font-size: 14px;display: inline-block;"></span>
+							 关于小馆
+							</a>
+							<ul class="nav flex-column smaul">
+								<li class="nav-item">
+									<a href="###">媒体报道</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">知识产权</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">加入我们</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item firli">
+						  <a class="nav-link fira" href="#">
+							  <span class="fa fa-american-sign-language-interpreting fa-2x" style="font-size: 14px;display: inline-block;"></span>
+							 服务支持
+							 </a>
+							 <ul class="nav flex-column smaul">
+							 	<li class="nav-item">
+							 		<a href="###">服务保障</a>
+							 	</li>
+							 	<li class="nav-item">
+							 		<a href="###">用户协议</a>
+							 	</li>
+							 	<li class="nav-item">
+							 		<a href="###">售后服务</a>
+							 	</li>
+							 </ul>
+						</li>
+						<li class="nav-item firli ">
+						  <a class="nav-link fira" href="#">
+							  <span class="fa fa-book fa-2x" style="font-size: 14px;display: inline-block;"></span>						  
+							  帮助中心</a>
+							  <ul class="nav flex-column smaul">
+							  	<li class="nav-item">
+							  		<a href="###">购物指南</a>
+							  	</li>
+							  	<li class="nav-item">
+							  		<a href="###">订单管理</a>
+							  	</li>
+							  	<li class="nav-item">
+							  		<a href="###">常见问题</a>
+							  	</li>
+							  </ul>
+						</li>
+						<li class="nav-item firli">
+						  <a class="nav-link fira" href="#">
+							  <span class="fa fa-heart fa-2x" style="font-size: 14px;display: inline-block;"></span>
+							  商业合作
+						</a>
+						<ul class="nav flex-column smaul">
+							<li class="nav-item">
+								<a href="###">集合采购</a>
+							</li>
+							<li class="nav-item">
+								<a href="###">品牌合作</a>
+							</li>
+							<li class="nav-item">
+								<a href="###">媒体合作</a>
+							</li>
+						</ul>
+						</li>
+						
+					  </ul>		
+					</nav>
+				
+				<div class="footFont">
+					<p>Copyright &copy; 2021-现在 xxcy.shop 版权所有</p>						
+				</div>
+				
+			</div>
+			
+		</footer>
+	</body>
+</html>

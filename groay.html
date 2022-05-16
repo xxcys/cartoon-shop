@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>商品分类</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/groay.css" />
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Popper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdn.staticfile.org/popper.js/1.14.6/umd/popper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<a class="navbar-brand" href="#"><img src="images/logo.jpg" width="60px"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">首页 </span></a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="groay.html">商品分类 <span class="sr-only">(current)</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="shopCard.html">购物车</a>
+						</li>
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+						    同人社区
+						  </a>
+						  <div class="dropdown-menu">
+						    <a class="dropdown-item" href="community.html">主页</a>
+						    <a class="dropdown-item" href="#">小说</a>
+						  </div>
+						</li>
+						<!-- Dropdown -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								收藏夹
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">收藏的宝贝</a>
+								<a class="dropdown-item" href="#">收藏的店铺</a>
+							</div>
+						</li>
+
+					</ul>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="log.html" style="display: inline-block;">登录</a>/
+							<a class="nav-link" href="register.html" style="display: inline-block;"> 注册</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">联系客服</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- 主体部分 -->
+		<!-- 搜索框	 -->
+		<div class="container">
+			<div class="searchs">
+				<form action="" method="">
+					<div class="smallLogo">
+						<a href="index.html">
+							<span class="fa fa-shopping-bag fa-2x"></span>
+							<p>Dimension bistro</p>
+						</a>
+					</div>
+					<div class="input-group mt-3 mb-3">
+						<div class="input-group-prepend">
+							<div class="form-group">
+								<select class="form-control " id="sel1">
+									<option class="btn-drak">商品</option>
+									<option>品牌</option>
+								</select>
+							</div>
+						</div>
+						<input type="text" class="form-control" placeholder="search">
+						<button class="btn btn-dark seaButton" type="submit">搜索</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- 搜索框结束 -->
+		<!-- 分类栏 -->
+		<div class="container">
+
+			<table class="table" style="text-align: center;">
+				<tr>
+					<th width="50">分类:</th>
+					<td width="60"><a href="#" style="color: #000000;">手办</a></td>
+					<td width="60"><a href="#" style="color: #000000;">漫展</a></td>
+					<td width="60"><a href="#" style="color: #000000;">文体</a></td>
+					<td width="60"><a href="#" style="color: #000000;">徽章</a></td>
+					<td width="60"><a href="#" style="color: #000000;">盲盒</a></td>
+					<td width="60"><a href="#" style="color: #000000;">键盘</a></td>
+					<td width="60"><a href="#" style="color: #000000;">电子周边</a></td>
+				</tr>
+				<tr style="border-bottom: 1px solid #eee;">
+					<th width="50">品牌：</th>
+					<td width="60"><a href="#" style="color: #000000;">米哈游</a></td>
+					<td width="60"><a href="#" style="color: #000000;">猫受屋</a></td>
+					<td width="60"><a href="#" style="color: #000000;">漫趣</a></td>
+					<td width="60"><a href="#" style="color: #000000;">万代</a></td>
+					<td width="60"><a href="#" style="color: #000000;">阿尔塔</a></td>
+					<td width="60"><a href="#" style="color: #000000;"></a></td>
+					<td width="60"><a href="#" style="color: #000000;"></a></td>
+				</tr>
+				<tr style="border-bottom: 1px solid #e1e1e1;">
+					<th width="50">筛选:</th>
+					<td width="60"><a href="#" style="color: #000000;">综合</a></td>
+					<td width="60"><a href="#" style="color: #000000;">销量</a></td>
+					<td width="60"><a href="#" style="color: #000000;">价格</a></td>
+				</tr>
+			</table>
+		</div>
+		<!--End 分类栏 End-->
+		<!-- 内容 -->
+		<div class="container groay">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="card">
+						<div class="alert alert-secondary">
+							  为你推荐
+						</div>
+						<img class="card-img-top" src="images/sb7.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">￥899.00</h4>
+							<p class="card-text">王者荣耀正版 Myethos云霓雀翎 虞姬典藏限定手办</p>
+							<a href="#" class="btn btn-primary">加入购物车</a>
+							<a href="#" class="btn btn-dark">查看详情</a>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="images/sb8.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">￥980.00</h4>
+							<p class="card-text">GSC Fate FGO 旧剑 亚瑟 潘德拉贡 英灵正装Ver. 手办</p>
+							<a href="#" class="btn btn-primary">加入购物车</a>
+							<a href="#" class="btn btn-dark">查看详情</a>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="images/zb5.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">￥49.00</h4>
+							<p class="card-text">稻妻城主题系列人物立牌亚克力立牌 原神周边Genshin</p>
+							<a href="#" class="btn btn-primary">加入购物车</a>
+							<a href="#" class="btn btn-dark">查看详情</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-sm-6 col-md-3">
+							<div class="product">
+								<div class="product-image">
+									<a href="#"><img src="images/zb6.jpg" alt="图1"></a>
+									<span class="find">
+										<a href="#" class="same">找同款</a>
+										<a href="#" class="similar">找相似</a>
+									</span>
+								</div>
+								<div class="product-content">
+									<div class="price">&yen;199</div>
+									<span class="title"><a href="#">bilibili哔哩哔哩2233系列MH5真无线蓝牙耳机周边现货</a></span>
+								</div>
+								<div class="moondSl">
+									<p>月销 500+</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="product">
+								<div class="product-image">
+									<a href="#"><img src="images/dsb.jpg" alt="图1"></a>
+									<span class="find">
+										<a href="#" class="same">找同款</a>
+										<a href="#" class="similar">找相似</a>
+									</span>
+								</div>
+								<div class="product-content">
+									<div class="price">&yen;240</div>
+									<span class="title"><a href="detail.html">【原神/定金】凝光·掩月天权Ver.1/7静态手办Genshin</a></span>
+								</div>
+								<div class="moondSl">
+									<p>月销 1万+</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="product">
+								<div class="product-image">
+									<a href="#"><img src="images/zb4.jpg" alt="图1"></a>
+									<span class="find">
+										<a href="#" class="same">找同款</a>
+										<a href="#" class="similar">找相似</a>
+									</span>
+								</div>
+								<div class="product-content">
+									<div class="price">&yen;15</div>
+									<span class="title"><a href="#">现货/洛天依乐正绫南北组『橘子汽水』主题周边</a></span>
+								</div>
+								<div class="moondSl">
+									<p>月销 6+</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="product">
+								<div class="product-image">
+									<a href="#"><img src="images/bigzb.jpg" alt="图1"></a>
+									<span class="find">
+										<a href="#" class="same">找同款</a>
+										<a href="#" class="similar">找相似</a>
+									</span>
+								</div>
+								<div class="product-content">
+									<div class="price">&yen;12.8</div>
+									<span class="title"><a href="#">Lovelive挂件周边亚克力钥匙扣南小鸟穗乃果妮可手机挂饰</a></span>
+								</div>
+								<div class="moondSl">
+									<p>月销 11</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 内容结束 -->
+		<!-- 底部 -->
+		<footer>
+			<div style="height: 250px; background: #333333;background: url(images/footbg.jpg);">
+			
+					<nav class="navbar navbar-expand-sm navbar-dark justify-content-center">
+					  <ul class="navbar-nav">
+						<li class="nav-item Example ofaddress-book firli">			
+						  <a class="nav-link fira" href="#">
+							 <span class="fa fa-group fa-2x" style="font-size: 14px;display: inline-block;"></span>
+							 关于小馆
+							</a>
+							<ul class="nav flex-column smaul">
+								<li class="nav-item">
+									<a href="###">媒体报道</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">知识产权</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">加入我们</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item firli">
+						  <a class="nav-link fira" href="#">
+							  <span class="fa fa-american-sign-language-interpreting fa-2x" style="font-size: 14px;display: inline-block;"></span>
+							 服务支持
+							 </a>
+							 <ul class="nav flex-column smaul">
+							 	<li class="nav-item">
+							 		<a href="###">服务保障</a>
+							 	</li>
+							 	<li class="nav-item">
+							 		<a href="###">用户协议</a>
+							 	</li>
+							 	<li class="nav-item">
+							 		<a href="###">售后服务</a>
+							 	</li>
+							 </ul>
+						</li>
+						<li class="nav-item firli ">
+						  <a class="nav-link fira" href="#">
+							  <span class="fa fa-book fa-2x" style="font-size: 14px;display: inline-block;"></span>						  
+							  帮助中心</a>
+							  <ul class="nav flex-column smaul">
+							  	<li class="nav-item">
+							  		<a href="###">购物指南</a>
+							  	</li>
+							  	<li class="nav-item">
+							  		<a href="###">订单管理</a>
+							  	</li>
+							  	<li class="nav-item">
+							  		<a href="###">常见问题</a>
+							  	</li>
+							  </ul>
+						</li>
+						<li class="nav-item firli">
+						  <a class="nav-link fira" href="#">
+							  <span class="fa fa-heart fa-2x" style="font-size: 14px;display: inline-block;"></span>
+							  商业合作
+						</a>
+						<ul class="nav flex-column smaul">
+							<li class="nav-item">
+								<a href="###">集合采购</a>
+							</li>
+							<li class="nav-item">
+								<a href="###">品牌合作</a>
+							</li>
+							<li class="nav-item">
+								<a href="###">媒体合作</a>
+							</li>
+						</ul>
+						</li>
+						
+					  </ul>		
+					</nav>
+				
+				<div class="footFont">
+					<p>Copyright &copy; 2021-现在 xxcy.shop 版权所有</p>						
+				</div>
+				
+			</div>
+			
+		</footer>
+		<!-- 底部结束 -->
+	</body>
+</html>

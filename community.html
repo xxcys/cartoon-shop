@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>次元小馆</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/community.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<!-- 引用bootstrap文件 -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Popper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body style="background: #f0f1f5;">
+		<div class="container">
+			<!-- 头部 -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<a class="navbar-brand" href="#"><img src="images/logo.jpg" width="60px"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item ">
+							<a class="nav-link" href="index.html">首页</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="groay.html">商品分类</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="shopCard.html">购物车</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="#">同人社区 <span class="sr-only">(current)</span></a>
+						</li>
+						<!-- Dropdown -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="collection.html" id="navbardrop" data-toggle="dropdown">
+								收藏夹
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="collection.html">收藏的宝贝</a>
+								<a class="dropdown-item" href="#">收藏的店铺</a>
+							</div>
+						</li>
+
+					</ul>
+
+					<ul class="navbar-nav ml-auto">
+						<form class="form-inline">
+							<div class="sear">
+								<i class="fa fa-search"></i>
+								<input class="form-control " type="text" placeholder="Search">
+								<button class="btn btn-dark" style="margin: 0px 10px 0px 5px;" type="submit">Search</button>
+							</div>
+
+						</form>
+						<li class="nav-item">
+							<a class="nav-link" href="log.html" style="display: inline-block;">登录</a>/
+							<a class="nav-link" href="rig.html" style="display: inline-block;"> 注册</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="my.html">个人信息</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">联系客服</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- 头部结束 -->
+		<!-- 顶部开始 -->
+		<div id="topBody" class="container">
+			<div class="row ">
+				<div class="col-md-9" id="pic">
+					<div id="demo" class="carousel slide" data-ride="carousel">
+						<!-- 指示符 -->
+						<ul class="carousel-indicators">
+							<li data-target="#demo" data-slide-to="0" class="active"></li>
+							<li data-target="#demo" data-slide-to="1"></li>
+							<li data-target="#demo" data-slide-to="2"></li>
+						</ul>
+
+						<!-- 轮播图片 -->
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="images/ht1.png" class="img-fluid rounded">
+							</div>
+							<div class="carousel-item">
+								<img src="images/ht1.png" class="img-fluid rounded">
+							</div>
+							<div class="carousel-item">
+								<img src="images/ht1.png" class="img-fluid rounded">
+							</div>
+						</div>
+
+						<!-- 左右切换按钮 -->
+						<a class="carousel-control-prev" href="#demo" data-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</a>
+						<a class="carousel-control-next" href="#demo" data-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+
+					</div>
+				</div>
+				<div class="col-md-3  border rounded" id="data">
+					<p class="text-center top-p">发布</p>
+					<div id="fordata">
+						<a href="#" class=" texts"> <span class=" fa fa-pencil"></span>&nbsp;&nbsp;发布帖子&nbsp;&nbsp;<span class="fa fa-angle-right"></span></a>
+						<p class="texts-p text-center ">讨论、分析、见闻、同人文</p>
+						<a href="#" class=" pics"><span class="fa fa-paint-brush"></span>&nbsp;&nbsp;发布图片&nbsp;&nbsp;<span class="fa fa-angle-right"></span></a>
+						<p class="pics-p text-center">绘画、cos、手工、表情包</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 顶部结束 -->
+		<!-- 中间内容 -->
+		<div id="comBody" class="container">
+			<div class="row ">
+				<div class="col-md-9 ">
+					<div id="communtLeft" class="rounded">
+						<dl class="comDl">
+							<div id="dl-top">
+								<img src="images/20171226073312_LmBHG.png" alt="" class="img-fluid topimg">
+								<a href="##" class="dl-name">星溪辰夜 &nbsp;<span class="badge badge-danger dl-span">Lv16</span></a>
+								<p class="dl-p">&nbsp;&nbsp;40分钟前</p>
+							</div>
+							<dt>
+								<h5><span class="badge badge-secondary">讨论</span>&nbsp;&nbsp;2022年一月新番最期待哪一部 </h5>
+							</dt>
+							<dd>
+								<p class="p-1 dd-p">2022年相继播出了一月新番,如今已经可以确定的动画就有三十一部之多，今天来介绍几部值得关注的作品，一定有对你胃口的！</p>
+								<img src="images/commun-1.jpeg" alt="" width="300px" height="200px">
+								<br>
+								<div class="dd-bot">
+									<a href=""><span class="badge badge-pill badge-light">番剧</span></a>
+									<a href=""><span class="badge badge-pill badge-light">一月新番</span></a>
+									<div class="float-right dd-com">
+										<i class="fa fa-eye"></i>&nbsp;<span>100+</span>&nbsp;&nbsp;
+										<i class="fa fa-commenting-o"></i>&nbsp;<span>11</span>&nbsp;&nbsp;
+										<i class="fa fa-thumbs-o-up"></i>&nbsp;<span>40</span>&nbsp;&nbsp;
+									</div>
+								</div>
+
+							</dd>
+						</dl>
+						<dl class="comDl">
+							<div id="dl-top">
+								<img src="images/zb1.jpg" alt="" class="img-fluid topimg">
+								<a href="##" class="dl-name">路游 &nbsp;<span class="badge badge-danger dl-span">Lv12</span></a>
+								<p class="dl-p">&nbsp;&nbsp;2小时前</p>
+							</div>
+							<dt>
+								<h5><span class="badge badge-secondary">分析</span>&nbsp;&nbsp;论伏笔的重要性 </h5>
+							</dt>
+							<dd>
+								<p class="p-1 dd-p">有些动漫会在前面留下一些伏笔作为剧情铺垫，让我来分析一些动漫的伏笔</p>
+								<img src="images/commun-2.jpg" alt="" width="300px" height="200px">
+								<br>
+								<div class="dd-bot">
+									<a href=""><span class="badge badge-pill badge-light">番剧</span></a>
+
+									<div class="float-right dd-com">
+										<i class="fa fa-eye"></i>&nbsp;<span>200+</span>&nbsp;&nbsp;
+										<i class="fa fa-commenting-o"></i>&nbsp;<span>89</span>&nbsp;&nbsp;
+										<i class="fa fa-thumbs-o-up"></i>&nbsp;<span>120</span>&nbsp;&nbsp;
+									</div>
+								</div>
+
+							</dd>
+						</dl>
+						<dl class="comDl">
+							<div id="dl-top">
+								<img src="images/zb6.jpg" alt="" class="img-fluid topimg">
+								<a href="##" class="dl-name">小萌新 &nbsp;<span class="badge badge-danger dl-span">Lv10</span></a>
+								<p class="dl-p">&nbsp;&nbsp;2小时前</p>
+							</div>
+							<dt>
+								<h5><span class="badge badge-secondary">讨论</span>&nbsp;&nbsp;适合冬天看的番剧 </h5>
+							</dt>
+							<dd>
+								<p class="p-1 dd-p">推荐一下动漫，后续会推出其他季节的~</p>
+								<img src="images/commun1.jpg" alt="" width="300px" height="200px">
+								<img src="images/hf.jpg" alt="" width="300px" height="200px">
+								<br>
+								<div class="dd-bot">
+									<a href=""><span class="badge badge-pill badge-light">番剧</span></a>
+									<a href=""><span class="badge badge-pill badge-light">白色相簿</span></a>
+									<div class="float-right dd-com">
+										<i class="fa fa-eye"></i>&nbsp;<span>500+</span>&nbsp;&nbsp;
+										<i class="fa fa-commenting-o"></i>&nbsp;<span>129</span>&nbsp;&nbsp;
+										<i class="fa fa-thumbs-o-up"></i>&nbsp;<span>220</span>&nbsp;&nbsp;
+									</div>
+								</div>
+							</dd>
+						</dl>
+						<a href="" class="text-center lod-add">点击加载更多</a>
+					</div>
+				</div>
+				<div class="col-md-3" id="dataRight">
+					<div id="news" class="rounded">
+						<div class="new-top">
+							<p class="news-p ">热门</p>
+							<a href="" class="text-right news-add">更多</a>
+						</div>
+						<div class="new-li">
+							<div class="new-img">
+								<img src="images/commun1.jpg" width="100%" height="100%">
+								<div class="decap">
+									<p>适合冬天的动漫</p>
+								</div>
+							</div>
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<a class="nav-link new-nav-a" href="#"><span class="badge  badge-pill badge-secondary">讨论</span>&nbsp;&nbsp;雷！不要再看这些了</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link new-nav-a" href="#"><span class="badge badge-pill badge-secondary">分析</span>&nbsp;&nbsp;论伏笔的重要性</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link new-nav-a" href="#"><span class="badge badge-pill badge-secondary">见闻</span>&nbsp;&nbsp;笑得，这是入戏太深了吗</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link new-nav-a" href="#"><span class="badge badge-pill badge-secondary">公告</span>&nbsp;&nbsp;请规范发帖！</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link new-nav-a" href="#"><span class="badge badge-pill badge-secondary">讨论</span>&nbsp;&nbsp;2022年一月新番最期待哪一部
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div id="tap" class="rounded">
+						<div class="new-top">
+							<p class="news-p ">推荐话题</p>
+							<a href="" class="text-right news-add">更多</a>
+						</div>
+						<div class="tap-li">
+							<ul class="navbar-nav">
+								<li class="nav-item">
+									<div class="tap-div">
+										<img src="images/commun2.jpg" alt="" class="tap-img img-fluid float-left">
+										<a href="#" class=" tap-nav-a">她和她的猫</a>
+									</div>
+								</li>
+								<li class="nav-item">
+									<div class="tap-div">
+										<img src="images/commun3.jpg" alt="" class="tap-img img-fluid float-left">
+										<a href="#" class=" tap-nav-a">虚拟歌姬</a>
+									</div>
+								</li>
+								<li class="nav-item">
+									<div class="tap-div">
+										<img src="images/login.jpg" alt="" class="tap-img img-fluid float-left">
+										<a href="#" class=" tap-nav-a">治愈</a>
+									</div>
+								</li>
+								<li class="nav-item">
+									<div class="tap-div">
+										<img src="images/mihoyo.jpg" alt="" class="tap-img img-fluid float-left">
+										<a href="#" class=" tap-nav-a">mihoyo</a>
+									</div>
+								</li>
+								<li class="nav-item">
+									<div class="tap-div">
+										<img src="images/rig.jpg" alt="" class="tap-img img-fluid float-left">
+										<a href="#" class=" tap-nav-a">天气之子</a>
+									</div>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 中间结束 -->
+		<footer>
+			<div style="height: 250px; background: #333333;background: url(images/footbg.jpg);">
+				<nav class="navbar navbar-expand-sm navbar-dark justify-content-center">
+					<ul class="navbar-nav">
+						<li class="nav-item Example ofaddress-book firli">
+							<a class="nav-link fira" href="#">
+								<span class="fa fa-group fa-2x" style="font-size: 14px;display: inline-block;"></span>
+								关于小馆
+							</a>
+							<ul class="nav flex-column smaul">
+								<li class="nav-item">
+									<a href="###">媒体报道</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">知识产权</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">加入我们</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item firli">
+							<a class="nav-link fira" href="#">
+								<span class="fa fa-american-sign-language-interpreting fa-2x" style="font-size: 14px;display: inline-block;"></span>
+								服务支持
+							</a>
+							<ul class="nav flex-column smaul">
+								<li class="nav-item">
+									<a href="###">服务保障</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">用户协议</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">售后服务</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item firli ">
+							<a class="nav-link fira" href="#">
+								<span class="fa fa-book fa-2x" style="font-size: 14px;display: inline-block;"></span>
+								帮助中心</a>
+							<ul class="nav flex-column smaul">
+								<li class="nav-item">
+									<a href="###">购物指南</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">订单管理</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">常见问题</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item firli">
+							<a class="nav-link fira" href="#">
+								<span class="fa fa-heart fa-2x" style="font-size: 14px;display: inline-block;"></span>
+								商业合作
+							</a>
+							<ul class="nav flex-column smaul">
+								<li class="nav-item">
+									<a href="###">集合采购</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">品牌合作</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">媒体合作</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+		
+				<div class="footFont">
+					<p>Copyright &copy; 2021-现在 xxcy.shop 版权所有</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

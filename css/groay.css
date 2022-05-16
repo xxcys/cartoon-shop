@@ -1,0 +1,148 @@
+.smallLogo {
+	width: 400px;
+	/* display: inline-block; */
+	position: absolute;
+	left: 10%;
+}
+
+.smallLogo p:hover {
+	color: #E4606D;
+	margin-left: 10px;
+	text-shadow: 5px 4px #eee;
+}
+
+.smallLogo a p,span {
+	display: inline-block;
+	color: #000000;
+}
+
+.searchs {
+	display: block;
+	width: 600px;
+	padding-top: 80px;
+	margin: 0 auto;
+	/* border: 1px solid red; */
+}
+
+.seaText {
+	width: 500px;
+}
+
+.seaButton {
+	margin-left: 10px;
+	height: 40px;
+}
+
+.groay table {
+	border-right: 1px solid #eee;
+}
+
+.groay table th {
+	background-color: #eee;
+	color: #333;
+	font-weight: 500;
+}
+
+.groay table  a{
+	color: #000;
+	font-size: 14px;
+}
+
+.groay table td a:hover {
+	color: #E4606D;
+}
+
+.card {
+	margin-bottom: 10px;
+}
+
+.product {
+	border: 1px solid #ddd;
+}
+
+.product:hover {
+	border: 1px solid #E4606D;
+	margin-top: 5px;
+}
+
+.product-image {
+	position: relative;
+	overflow: hidden;
+}
+
+.product-image img {
+	width: 100%;
+}
+
+.product-image .find {
+	position: absolute;
+	left: 0px;
+	bottom: -35px;
+	display: block;
+	width: 100%;
+	line-height: 35px;
+	background-color: rgba(255, 0, 0, 0.85);
+	transition: bottom 0.5s;
+}
+
+.product-image .find a {
+	display: inline-block;
+	width: 50%;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+.product-image .find a.same {
+	float: left;
+}
+
+.product-image .find a.similar {
+	float: right;
+}
+
+.product-image:hover .find {
+	bottom: 0px;
+}
+
+.product-image:hover .find a {
+	border-right: 1px solid #fff;
+}
+
+.product-content {
+	height: 100px;
+	padding: 5px 10px;
+}
+
+.product-content .price {
+	font-size: 18px;
+	color: #f00;
+}
+
+.product-content a {
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+}
+
+.product-content a:hover {
+	color: #E4606D;
+	text-decoration: underline;
+}
+
+.moondSl {
+	height: 30px;
+	margin-top: 5px;
+	border-top: 1px solid #eee;
+}
+
+.moondSl p {
+	font-size: 12px;
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	color: #999;
+	padding-right: 10px;
+}

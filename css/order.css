@@ -1,0 +1,136 @@
+.orderBody{
+	margin-top: 80px;
+	margin-bottom: 20px;
+	height: 550px;
+	position: relative;
+}
+.orderBody h4{
+	font-size: 1rem;
+	padding: 10px;
+}
+.orderBody table td{
+	font-size: 12px;
+}
+
+.title_card {
+	color: #000000;
+	display: inline-block;
+	width: 150px;
+	float: left;
+	padding-right: 10px;
+}
+
+.title_card:hover {
+	color: #E4606D;
+	text-decoration: underline;
+}
+
+.color_card {
+	width: 150px;
+	float: right;
+	color: #999;
+}
+
+.orderBody strong {
+	font-size: 0.8rem;
+	font-weight: 500;
+}
+
+.orderBody span {
+	font-size: 0.8rem;
+	font-weight: 500;
+}
+.orderBody i{
+	font-style: normal;
+	color: red;
+	font-size: 1rem;
+}
+.addBottom{
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+}
+.address{
+	width: 350px;
+	height: 120px;
+	padding: 10px 5px;
+	border: 1px solid red;
+	
+	box-shadow: inset 2px 2px 2px 2px #eee;
+}
+.money{
+	width: 100%;
+}
+
+.money span{
+	color: red;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+.address p{
+	height: 25px;
+	text-align: right;
+	padding-right: 10px;
+	line-height: 25px;
+	font-weight: 550;
+	font-size: 0.8rem;
+}
+.addre{
+	width: 100%;
+	
+}
+.perpro{
+	width: 100%;	
+}
+.but_order{
+	
+}
+.re_card{
+	display: inline-block;
+	padding: 10px;
+	font-size: 0.8rem;
+}
+.sub_order{
+	display: inline-block;
+	width: 200px;
+	height: 35px;
+	font-size: 1rem;
+	line-height: 35px;
+	background: red;
+	color: #fff;
+	float: right;
+	text-align: center;
+}
+.sub_order:hover{
+	color: #fff;
+}
+.tab_bot{
+	border-bottom: 1px solid #eee;
+	/* border: 1px solid #000; */
+	
+}
+.liuy{
+	width: 420px;
+}
+.liuy p{
+	display: inline-block;
+}
+.liuy textarea{
+	float: right;
+}
+.express{
+	width: 400px;
+	text-align: center;
+	/* border: 1px solid #E0A800; */
+}
+.mon_small{
+	width: 300px;
+	float: right;
+	/* border: 1px solid #000; */
+}
+.mon_small p{
+	text-align: right;
+	padding-right: 100px;
+	font-size: 1rem;
+}

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<!-- 引用bootstrap文件 -->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/detail.css" />
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Popper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/detail.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!-- 头部开始 -->
+		<div class="container">
+			<!-- 头部 -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<a class="navbar-brand" href="#"><img src="images/logo.jpg" width="60px"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">首页</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="groay.html">商品分类</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="shopCard.html">购物车</a>
+						</li>
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+						    同人社区
+						  </a>
+						  <div class="dropdown-menu">
+						    <a class="dropdown-item" href="community.html">主页</a>
+						    <a class="dropdown-item" href="#">小说</a>
+						  </div>
+						</li>
+						<!-- Dropdown -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								收藏夹
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">收藏的宝贝</a>
+								<a class="dropdown-item" href="#">收藏的店铺</a>
+							</div>
+						</li>
+
+					</ul>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="log.html" style="display: inline-block;">登录</a>/
+							<a class="nav-link" href="register.html" style="display: inline-block;"> 注册</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">联系客服</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!-- 头部结束 -->
+
+		<!-- 商品内容 -->
+		<div class="container shopData">
+			<div class="row">
+				<div class="col-md-4 col-sm-6 border">
+					<div id="smallImg">
+						<div id="mask"></div>
+					</div>
+					<div class="bigimg" id="wrap">
+						<img id="bigImg" src="images/xq1.jpg" alt="" width="100%" height="100%">
+					</div>
+					<div id="hovImg">
+						<div v-for="(item, index) in itemList">
+							<img :src="require('images/xq'+item.url+'.jpg')"></lable>
+						</div>
+						<div class="smallImg clearfix">
+							<ul class="d-flex flex-row">
+								<li><a href="#"><img src="images/xq1.jpg" width="100%" height="100%" /></a></li>
+								<li><a href="#"><img src="images/xq2.jpg" width="100%" height="100%" /></a></li>
+								<li><a href="#"><img src="images/xq3.jpg" width="100%" height="100%" /></a></li>
+								<li><a href="#"><img src="images/xq4.jpg" width="100%" height="100%" /></a></li>
+								<li><a href="#"><img src="images/xq5.jpg" width="100%" height="100%" /></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="midCen col-md-6 col-sm-8">
+					<h4>【原神/定金】凝光·掩月天权Ver.1/7静态手办 Genshin</h4>
+					<p class="topP">全国包邮 凝光·掩月天权</p>
+					<dl>
+						<dt>本店价格：</dt>
+						<dd><span>￥240</span></dd>
+						<dt class="size">尺码：</dt>
+						<dd>
+							<ul class="sizeUl" id="sizeUl">
+								<li class="active"><a href="###">（miHoYo X Apex）预定即赠特典挂画【特典预计12月中旬发出】</a></li>
+							</ul>
+						</dd>
+						<dt style="color: #999;">颜色：</dt>
+						<dd>
+							<ul class="colorUl" id="colorUl">
+								<li class="active"><a href="###">凝光</a></li>
+							</ul>
+						</dd>
+					</dl>
+					<div class="share">
+						<a href="###" class="shareTop" id="share">分享</a>
+						<div class="shareDiv" id="showDiv">
+							<ul>
+								<li><a href="#"><img src="images/sh_1.gif" /></a></li>
+								<li><a href="#"><img src="images/sh_2.gif" /></a></li>
+								<li><a href="#"><img src="images/sh_3.gif" /></a></li>
+								<li><a href="#"><img src="images/sh_4.gif" /></a></li>
+								<li><a href="#"><img src="images/sh_5.gif" /></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="follow">
+						
+						<a href="#">关注商品</a>
+					</div>
+					<div class="bottomCo">
+						<div id="app">
+							<input type="text" v-model="count" />
+							<button id="add" @click="count++">+</button>
+							<button id="reduce" @click="reduce">-</button>
+						</div>						
+						<div class="addCard">	
+							<a href="order.html" class="btn pay " style="color: #000;"><p class="fa fa-credit-card">&nbsp;立即购买</p></a>
+							<a href="shopCard.html"><img src="images/j_car.png" alt="" /></a>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 商品内容结束 -->
+		<!-- 详情 -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-5 userLike">
+					<h6>用户还喜欢</h6>
+					<div class="card">
+						<img class="card-img-top ulImg" src="images/ul1.jpg" alt="Card image">
+						<div class="card-body">
+							<a href="">【原神】原神主题系列毛绒玩偶 嘟嘟可毛绒挂件 Genshin</a>
+							<p class="card-text">￥89</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top ulImg" src="images/ul2.jpg" alt="Card image">
+						<div class="card-body">
+							<a href="">【原神】「风与牧歌之城」CD套装 Genshin</a>
+							<p class="card-text">￥208</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-9 col-sm-11  dataXq">
+					<div id="navs" class="dataTop">
+						<div class="active" id="tab1">商品详情</div>
+						<div id="tab2">商品评论</div>
+
+					</div>
+			
+					<div id="cons">
+						<div id="con1">
+							<div class="shopDetails">
+								<table class="table table-borderless">
+									<tbody>
+										<tr>
+											<td>品牌名称：原神</td>
+										</tr>
+										<tr>
+											<th>产品参数：</th>
+
+										</tr>
+										<tr>
+											<td>品牌：原神</td>
+											<td>型号：凝光手办定金</td>
+											<td>适用年龄: 14周岁以上</td>
+										</tr>
+										<tr>
+											<td width="300">尺寸: （miHoYo X Apex）预定即赠特典挂</td>
+											<td>颜色分类: 【定金240，全款1299】凝光·掩月天权Ver.1/7静态手办</td>
+											<td>出售状态: 预售</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="dataImg">
+								<img src="images/mx1.jpg" alt="" width="100%" height="100%">
+								<img src="images/mx2.jpg" alt="" width="100%" height="100%">
+								<img src="images/mx3.jpg" alt="" width="100%" height="100%">
+								<img src="images/mx4.jpg" alt="" width="100%" height="100%">
+								<img src="images/mx5.jpg" alt="" width="100%" height="100%">
+								<img src="images/mx6.jpg" alt="" width="100%" height="100%">
+								<img src="images/mx7.jpg" alt="" width="100%" height="100%">
+								<img src="images/mx8.jpg" alt="" width="100%" height="100%">
+								<img src="images/mx9.png" alt="" width="100%" height="100%">
+							</div>
+						</div>
+						<div id="con2">
+							<div class="comment">								
+								<table border="0" class="jud_tab" cellspacing="0" cellpadding="0">
+							            <tr>
+							                <td width="175" class="jud_per">
+							                    <p>99.0%</p>好评度
+							                </td>
+							                <td width="300">
+							                    <table border="0" style="width:100%;" cellspacing="0" cellpadding="0">
+							                        <tr>
+							                            <td width="100">好评<span color="#999999">（99%）</span></td>
+							                            <td>
+							                            	<div class="progress" style="height:15px;width: 170px;">
+							                            		<div class="progress-bar" style="width:99%;background: #fb550d;"></div>
+							                            	</div>
+							                            </td>
+							                        </tr>
+							                        <tr>
+							                            <td>中评<span color="#999999">（1%）</span></td>
+							                            <td>
+							                            	 <div class="progress" style="height:15px;width: 170px;">
+							                            		<div class="progress-bar " style="width:1%;background: #fb550d;"></div>
+							                            	</div>
+							                            </td>                                                               
+							                        </tr>
+							                        <tr>
+							                            <td>差评<span color="#999999">（0%）</span></td>
+							                             <td>
+							                            	 <div class="progress" style="height:15px;width: 170px;">
+							                            		<div class="progress-bar" style="width:0%"></div>
+							                            	</div>
+							                            </td> 
+							                        </tr>
+							                    </table>
+							                </td>
+							                <td width="185" class="jud_bg">
+							                    购买过凝光·掩月天权Ver.1/7静态手办 Genshin的顾客，在收到商品才可以对该商品发表评论
+							                </td>
+							                <td class="jud_bg">您可对已购买商品进行评价<br/><a href="#"><img src="images/btn_jud.gif"/></a></td>
+							            </tr>
+							        </table>
+							        <table border="0" class="jud_list" style="width:100%; margin-top:30px;" cellspacing="0" cellpadding="0">
+							            <tr valign="top">
+							                <td width="160">&nbsp;向死而生
+							                </td>
+							                <td width="180">
+							                   颜色分类：<font color="#999999"></font> <br/>
+							                    型号：<font color="#999999"></font>
+							                </td>
+							                <td>
+							                   求求凝光姐姐也分我一点摩拉 <br/>
+							                    <font color="#999999">2021-09-24</font>
+							                </td>
+							            </tr>
+							            <tr valign="top">
+							                <td width="160">&nbsp;就是这么想
+							                </td>
+							                <td width="180">
+							                    颜色分类：<font color="#999999"></font> <br/>
+							                    型号：<font color="#999999"></font>
+							                </td>
+							                <td>
+							                    坐等尾款了(。-ω-)zzz <br/>
+							                    <font color="#999999">2021-09-24</font>
+							                </td>
+							            </tr>
+							            <tr valign="top">
+							                <td width="160">&nbsp;墨镜墨镜
+							                </td>
+							                <td width="180">
+							                    颜色分类：<font color="#999999"></font> <br/>
+							                    型号：<font color="#999999"></font>
+							                </td>
+							                <td>
+							                    坐等老婆了嗷 （｡ò ∀ ó｡）<br/>
+							                    <font color="#999999">2021-09-25</font>
+							                </td>
+							            </tr>
+							            <tr valign="top">
+							                <td width="160">&nbsp;那*****洋
+							                    <br/><font color="#999999">（匿名用户）</font></td>
+							                <td width="180">
+							                    颜色分类：<font color="#999999"></font> <br/>
+							                    型号：<font color="#999999"></font>
+							                </td>
+							                <td>
+							                    挂画挺好，期待不崩，毕竟第一个满命角色<br/>
+							                    <font color="#999999">2015-09-24</font>
+							                </td>
+							            </tr>
+							        </table>
+							         <div class="pages">
+							            <a href="#" class="p_pre">上一页</a><a href="#" class="cur">1</a><a href="#">2</a><a
+							                href="#">3</a>...<a href="#">20</a><a href="#" class="p_pre">下一页</a>
+							        </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 详情 -->
+		<!-- 底部 -->
+		<footer>
+			<div style="height: 250px; background: #333333;background: url(images/footbg.jpg);">
+			
+					<nav class="navbar navbar-expand-sm navbar-dark justify-content-center">
+					  <ul class="navbar-nav">
+						<li class="nav-item Example ofaddress-book firli">			
+						  <a class="nav-link fira" href="#">
+							 <span class="fa fa-group fa-2x" style="font-size: 14px;display: inline-block;"></span>
+							 关于小馆
+							</a>
+							<ul class="nav flex-column smaul">
+								<li class="nav-item">
+									<a href="###">媒体报道</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">知识产权</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">加入我们</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item firli">
+						  <a class="nav-link fira" href="#">
+							  <span class="fa fa-american-sign-language-interpreting fa-2x" style="font-size: 14px;display: inline-block;"></span>
+							 服务支持
+							 </a>
+							 <ul class="nav flex-column smaul">
+							 	<li class="nav-item">
+							 		<a href="###">服务保障</a>
+							 	</li>
+							 	<li class="nav-item">
+							 		<a href="###">用户协议</a>
+							 	</li>
+							 	<li class="nav-item">
+							 		<a href="###">售后服务</a>
+							 	</li>
+							 </ul>
+						</li>
+						<li class="nav-item firli ">
+						  <a class="nav-link fira" href="#">
+							  <span class="fa fa-book fa-2x" style="font-size: 14px;display: inline-block;"></span>						  
+							  帮助中心</a>
+							  <ul class="nav flex-column smaul">
+							  	<li class="nav-item">
+							  		<a href="###">购物指南</a>
+							  	</li>
+							  	<li class="nav-item">
+							  		<a href="###">订单管理</a>
+							  	</li>
+							  	<li class="nav-item">
+							  		<a href="###">常见问题</a>
+							  	</li>
+							  </ul>
+						</li>
+						<li class="nav-item firli">
+						  <a class="nav-link fira" href="#">
+							  <span class="fa fa-heart fa-2x" style="font-size: 14px;display: inline-block;"></span>
+							  商业合作
+						</a>
+						<ul class="nav flex-column smaul">
+							<li class="nav-item">
+								<a href="###">集合采购</a>
+							</li>
+							<li class="nav-item">
+								<a href="###">品牌合作</a>
+							</li>
+							<li class="nav-item">
+								<a href="###">媒体合作</a>
+							</li>
+						</ul>
+						</li>
+						
+					  </ul>		
+					</nav>
+				
+				<div class="footFont">
+					<p>Copyright &copy; 2021-现在 xxcy.shop 版权所有</p>						
+				</div>
+				
+			</div>
+			
+		</footer>
+	</body>
+	<script src="js/vue-2.6.10.js"></script>
+	<script>
+		//分享
+		(function() {
+			var share = document.getElementById('share');
+			var showDiv = document.getElementById('showDiv');
+			var timer = null;
+			showDiv.onmouseover = share.onmouseover = function() {
+				if (timer) clearTimeout(timer)
+				showDiv.style.display = 'block';
+				share.style.border = '1px solid #eee';
+			}
+			showDiv.onmouseout = share.onmouseout = function() {
+				timer = setTimeout(function() {
+					showDiv.style.display = 'none';
+					share.style.border = 'none';
+				}, 400);
+			}
+		})();
+		//改变默认属性
+		$("li").click(function() {
+			$(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
+			$(this).addClass('active');
+		});
+		new Vue({
+			el: "#app",
+			data: function() {
+				return {
+					count: 1
+				}
+			},
+			methods: {
+				reduce: function() {
+					this.count--;
+					if (this.count <= 0) {
+						this.count = 0;
+					}
+				}
+			}
+		});
+		//图片放大
+		// 1.获取鼠标在屏幕上的位置
+		var oNavs = document.getElementById("navs");
+		var tabArr = oNavs.children;
+		var oCons = document.getElementById("cons");
+		var conArr = oCons.children;
+		// console.log(tabArr);
+
+		var tab;
+		for (var i = 0; i < tabArr.length; i++) {
+			tab = tabArr[i];
+			tab.index = i;
+			tab.onclick = function() {
+				// this:表示当前操作的元素
+				// console.log(this);
+
+				for (var j = 0; j < tabArr.length; j++) {
+					tabArr[j].className = "";
+					conArr[j].style.display = "none";
+				}
+				this.className = "active";
+				conArr[this.index].style.display = "block";
+			}
+		}
+	</script>
+
+</html>

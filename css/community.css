@@ -1,0 +1,158 @@
+#topBody{
+	margin-top: 100px;
+	
+}
+#pic{
+	/* padding-right: 0px; */
+	/* padding-left: 0px; */
+}
+#data{
+	background: #fff;
+	
+}
+.top-p{
+	padding-top: 20px;
+	font-size: 1.2rem;
+	font-family: "黑体";
+}
+#fordata{
+	width: 100%;
+	border-top: 1px dashed #eee;
+}
+.texts,.pics{
+	display: block;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	margin: 20px auto;
+	color: #fff;
+	text-align:	center;
+	border: 1px solid red;
+	border-radius: 3px;
+	background: #E4606D;
+}
+.texts:hover,.pics:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.texts-p,.pics-p{
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	color: #999;
+	
+}
+#communtLeft{
+	margin-top: 30px;
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.comDl{
+	margin-top: 10px;
+	border-bottom: 1px solid #eee;
+}
+.topimg{
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+}
+.dl-name{
+	font-size:0.8rem;
+	color: #666;
+}
+.dl-span{
+	font-size: 0.8rem;
+}
+.dl-p{
+	display: inline-block;
+	color: #999;
+	font-size: 0.8rem;
+}
+.dd-p{
+	color: #999;
+	font-size: 0.8rem;
+}
+.dd-bot{
+	padding-top: 10px;
+}
+.dd-span{
+	color: 666;
+	font-size: 0.6rem;
+}
+.dd-com{
+	color: #999;
+}
+.lod-add{
+	display: block;
+	margin: 0 auto;
+}
+.lod-add:hover{
+	text-decoration: none;
+}
+#dataRight{
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+#news,#tap{
+	margin-top: 30px;
+	background: #fff;
+}
+.news-p{
+	font-size: 1rem;
+	margin: 20px;
+	display: inline-block;
+}
+.news-add{
+	color: #999;
+	font-size: 0.85rem;
+	float: right;
+	margin-top: 22px;
+	margin-right: 20px;
+}
+.new-top{
+	border-bottom: 1px solid #eee;
+}
+.new-li,.tap-li{
+	margin: 20px;
+}
+.new-img{
+	margin-top: 10px;
+	position: relative;
+}
+.new-img img{
+	display: block;
+	margin: 0 auto;
+}
+.decap{
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	bottom: 0%;	
+	left: 0%;
+	/* border: 1px solid #000; */
+	background-color:rgba(0,0,0,.5);
+}
+.decap p{
+	display: inline-block;
+	padding-left: 20px;
+	font-size: 0.8rem;
+}
+.new-nav-a,.tap-nav-a{
+	font-size:0.85rem;
+	color: #000000;
+}
+.tap-div{
+	padding:  10px 0px;
+}
+.tap-img{
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+}
+.tap-nav-a{
+	margin-left: 20px;
+}
+.tap-li{
+	padding-bottom: 10px;
+}

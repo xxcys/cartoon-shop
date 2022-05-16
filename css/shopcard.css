@@ -1,0 +1,126 @@
+.shopCard{
+	margin-bottom: 10px;
+}
+
+.smallLogo {
+	width: 400px;
+	/* display: inline-block; */
+	position: absolute;
+	left: 10%;
+}
+
+.smallLogo p:hover {
+	color: #E4606D;
+	margin-left: 10px;
+	text-shadow: 5px 4px #eee;
+}
+
+.smallLogo a p,span {
+	display: inline-block;
+	color: #000000;
+}
+
+.searchs {
+	display: block;
+	width: 600px;
+	padding-top: 80px;
+	margin: 0 auto;
+}
+
+.seaText {
+	width: 500px;
+}
+
+.seaButton {
+	margin-left: 10px;
+	height: 40px;
+}
+
+.cardBody {
+	width: 100%;
+	height: 250px;
+	margin-bottom: 20px;
+}
+
+.cardBody table td {
+	font-size: 12px;
+}
+
+.title_card {
+	color: #000000;
+	display: inline-block;
+	width: 150px;
+	float: left;
+}
+
+.title_card:hover {
+	color: #E4606D;
+	text-decoration: underline;
+}
+
+.color_card {
+	width: 150px;
+	float: right;
+	color: #999;
+}
+
+.cardBody strong {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.cardBody span {
+	color: red;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+#app {
+	border: 1px silver solid;
+	width: 60px;
+	height: 40px;
+	position: relative;
+}
+
+#app input {
+	width: 40px;
+	height: 35px;
+	text-align: center;
+	border: none;
+	outline: none;
+}
+
+#add,#reduce {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	border: none;
+}
+
+#reduce {
+	top: 20px;
+}
+.delect{
+	color: #000;
+}
+.settlement{
+	width: 100%;
+	height: 50px;
+
+	background: #eee;
+}
+.settlement a{
+	color: #000;
+}
+.settlement span{
+	color: red;
+	display: inline-block;
+	margin: 5;
+	font-weight: 600;
+}
+.settlement button{
+	float: right;
+	margin-bottom: 10px;
+}

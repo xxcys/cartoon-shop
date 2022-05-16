@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+div{
+	display: block;
+}
+
+
+.sear{
+	width: 350px;
+	position: relative;
+}
+.sear input{
+	width: 200px;
+	padding-left: 28px;
+}
+.sear i{
+	position: absolute;
+	left: 8px;
+	top: 10px;
+}
+
+footer .firli{
+	/* height: 50px; */
+	margin: 10px 10px;	
+	/* border-bottom: 1px solid gray; */
+}
+
+footer nav li .fira{
+	display: block;
+	height: 30px;
+	line-height: 5px;
+	text-align: center;
+	border-bottom: 1px solid gray;
+}
+
+footer nav span{
+	color: #999;
+}
+
+.footFont{
+	width: 500px;	
+	margin: 10px auto;
+	/* border: 1px solid #fff; */
+}
+.footFont p{
+	/* display: inline-block; */
+	/* padding-left: 80px; */
+	font-size: 14px;
+	color: #999;
+	/* padding-left: 150px; */
+	
+	text-align: center;
+	
+}
+.smaul{
+	padding: 10px;
+
+}
+.smaul li{
+	text-align: center;
+	line-height: 30px;
+}
+.smaul li a{
+	color: #666;
+}
+.smaul li a:hover{
+	color: #999;
+}

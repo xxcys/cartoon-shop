@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>我的</title>
+
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/my.css" />
+
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Popper.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				<a class="navbar-brand" href="#"><img src="images/logo.jpg" width="60px"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">首页</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="groay.html">商品分类</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="shopCard.html">购物车</a>
+						</li>
+						<li class="nav-item dropdown">
+						  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+						    同人社区
+						  </a>
+						  <div class="dropdown-menu">
+						    <a class="dropdown-item" href="community.html">主页</a>
+						    <a class="dropdown-item" href="#">小说</a>
+						  </div>
+						</li>
+						<!-- Dropdown -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+								收藏夹
+							</a>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">收藏的宝贝</a>
+								<a class="dropdown-item" href="#">收藏的店铺</a>
+							</div>
+						</li>
+
+					</ul>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="log.html" style="display: inline-block;">登录</a>/
+							<a class="nav-link" href="register.html" style="display: inline-block;"> 注册</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">联系客服</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<!-- 基本信息 -->
+		<div class="container mybody">
+			<div class="row">
+				<div class="col-md-4 col-sm-6 border">
+					<div class="lboxTop">
+						<img src="images/20171226073312_LmBHG.png" alt="" class="headimg">
+						<p class="mname">星溪辰夜</p>
+						<a href="register.html" class="btn btn-secondary queBut">切换账号</a>
+					</div>
+					<div class="lboxBotton">
+						<ul class="nav flex-column dataUl" role="tablist" id="myTab">
+							<li class="nav-item active">
+								<a class="nav-link active"  href="#mydata" data-toggle="tab">个人信息</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#order" data-toggle="tab">我的订单</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#money" data-toggle="tab">我的钱包</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#sprice" data-toggle="tab">优惠特权</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#userset" data-toggle="tab">账号设置</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#footer" data-toggle="tab">我的足迹</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#oldthing" data-toggle="tab">收藏夹</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-8 col-sm-10">
+					<div id="myTabContent" class="tab-content info" >
+						<!-- 选项卡内容开始 -->
+						<!-- 个人资料 -->
+						<div class="tab-pane active" id="mydata">
+							<ul class="nav nav-tabs">
+								<li class="nav-item">
+									<a class="nav-link active" href="#" style="color: #E4606D;">基本资料</a>
+								</li>
+							</ul>
+							<table class="table table-borderless" style="margin: 50px auto;">
+								<tr>
+									<td width="120">用户id</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td width="120">账号</td>
+									<td>15706663237</td>
+								</tr>
+								<tr>
+									<td width="120">昵称</td>
+									<td><input type="text" id="" value="星溪辰夜" style="font-size: 16px;width: 150px; text-align: center;" /></td>
+								</tr>
+								<tr>
+									<td width="120">地址</td>
+									<td><input type="text" id="" value="广东省广州市" style="font-size: 16px; width: 150px; text-align: center;" /></td>
+								</tr>
+								<tr>
+									<td width="120">出生年月</td>
+									<td>
+										<select name="year" style="width: 100px;">
+											<option value="">--</option>
+											<option value="">2000</option>
+											<option value="">1999</option>
+											<option value="">1998</option>
+										</select>
+										年
+										<select name="moon" style="width: 60px;">
+											<option value="">--</option>
+											<option value="">1</option>
+											<option value="">2</option>
+											<option value="">3</option>
+										</select>
+										月
+										<select name="year" style="width: 60px;">
+											<option value="">--</option>
+											<option value="">1</option>
+											<option value="">2</option>
+											<option value="">3</option>
+										</select>
+										日
+									</td>
+								</tr>
+							</table>
+
+							<div class="rboxBot">
+								<a href="###" class="btn btn-danger">保存</a>
+							</div>
+						</div>
+						<!-- 个人资料结束 -->
+						<!-- 订单 -->
+						<div class="tab-pane fade" id="order">
+							<ul class="nav nav-tabs">
+								<li class="nav-item">
+									<a class="nav-link active" href="#" style="color: #E4606D;">全部订单</a>
+								</li>
+							</ul>
+							<h6>商品信息</h6>
+							<table class="table">
+								<thead>
+									<tr>
+										<td>
+											<input type="checkbox" name="" id="" value="" />
+										</td>
+										<td>
+											<p>2021-9-24 12：00</p>
+										</td>
+										<td>
+											<p>订单号：1</p>
+										</td>
+										<td>
+										</td>
+										<td><a href="" class="fa fa-trash-o" style="color: #999999;"></a></td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+
+										<td>
+											<img src="images/xq1.jpg" alt="" width="100px" height="100px">
+										</td>
+										<td>
+											<a href="detail.html" class="title_card">
+												<p>【原神/定金】凝光·掩月天权Ver.1/7静态手办 Genshin</p>
+											</a>
+										</td>
+										<td>
+											<div class="color_card">
+												<p>颜色：（miHoYo X Apex）预定即赠特典挂画【特典预计12月中旬发出】</p>
+												<p>尺寸：【定金240，全款1299】凝光&middot;掩月天权Ver.1/7静态手办</p>
+											</div>
+										</td>
+										<td>
+											<strong>&yen;240</strong>
+										</td>
+										<td>
+											x1
+										</td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+						<!-- 订单结束 -->
+						<!-- 我的钱包 -->
+						<div class="tab-pane fade" id="money">
+							<ul class="nav nav-tabs">
+								<li class="nav-item">
+									<a class="nav-link active" href="#" style="color: #E4606D;">我的钱包</a>
+								</li>
+							</ul>
+							
+						</div>
+						<!-- 我的钱包结束 -->
+						<!-- 优惠特权 -->
+						<div class="tab-pane fade" id="sprice">
+							<ul class="nav nav-tabs">
+								<li class="nav-item">
+									<a class="nav-link active" href="#" style="color: #E4606D;">优惠特权</a>
+								</li>
+							</ul>
+							
+						</div>
+						<!-- 优惠特权结束 -->
+						<!-- 账号设置 -->
+						<div class="tab-pane fade" id="userset">
+							<ul class="nav nav-tabs">
+								<li class="nav-item">
+									<a class="nav-link active" href="#" style="color: #E4606D;">账号设置</a>
+								</li>
+							</ul>
+							
+						</div>
+						<!-- 账号设置结束 -->
+						<!-- 我的足迹 -->
+						<div class="tab-pane fade" id="footer">
+							<ul class="nav nav-tabs">
+								<li class="nav-item">
+									<a class="nav-link active" href="#" style="color: #E4606D;">我的足迹</a>
+								</li>
+							</ul>
+							
+						</div>
+						<!-- 我的足迹结束 -->
+						<!-- 收藏夹 -->
+						<div class="tab-pane fade" id="oldthing">
+							<ul class="nav nav-tabs">
+								<li class="nav-item">
+									<a class="nav-link active" href="#" style="color: #E4606D;">收藏夹</a>
+								</li>
+							</ul>
+							
+						</div>
+						<!-- 收藏夹结束 -->
+						<!-- 选项卡内容结束 -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 底部 -->
+		<footer>
+			<div style="height: 250px; background: #333333;background: url(images/footbg.jpg);">
+
+				<nav class="navbar navbar-expand-sm navbar-dark justify-content-center">
+					<ul class="navbar-nav">
+						<li class="nav-item Example ofaddress-book firli">
+							<a class="nav-link fira" href="#">
+								<span class="fa fa-group fa-2x" style="font-size: 14px;display: inline-block;"></span>
+								关于小馆
+							</a>
+							<ul class="nav flex-column smaul">
+								<li class="nav-item">
+									<a href="###">媒体报道</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">知识产权</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">加入我们</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item firli">
+							<a class="nav-link fira" href="#">
+								<span class="fa fa-american-sign-language-interpreting fa-2x" style="font-size: 14px;display: inline-block;"></span>
+								服务支持
+							</a>
+							<ul class="nav flex-column smaul">
+								<li class="nav-item">
+									<a href="###">服务保障</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">用户协议</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">售后服务</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item firli ">
+							<a class="nav-link fira" href="#">
+								<span class="fa fa-book fa-2x" style="font-size: 14px;display: inline-block;"></span>
+								帮助中心</a>
+							<ul class="nav flex-column smaul">
+								<li class="nav-item">
+									<a href="###">购物指南</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">订单管理</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">常见问题</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item firli">
+							<a class="nav-link fira" href="#">
+								<span class="fa fa-heart fa-2x" style="font-size: 14px;display: inline-block;"></span>
+								商业合作
+							</a>
+							<ul class="nav flex-column smaul">
+								<li class="nav-item">
+									<a href="###">集合采购</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">品牌合作</a>
+								</li>
+								<li class="nav-item">
+									<a href="###">媒体合作</a>
+								</li>
+							</ul>
+						</li>
+
+					</ul>
+				</nav>
+
+				<div class="footFont">
+					<p>Copyright &copy; 2021-现在 xxcy.shop 版权所有</p>
+				</div>
+
+			</div>
+
+		</footer>
+	</body>
+	<script>
+// 		function xieyi() {
+// 			$("#databtn").trigger("click");
+// 
+// 		}
+// 		$(document).ready(function() {
+// 			window.onload = xieyi;
+// 		});
+// 		$(function() {
+// 			$('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+// 				// Get the name of active tab
+// 				var activeTab = $(e.target).text();
+// 				// Get the name of previous tab
+// 				var previousTab = $(e.relatedTarget).text();
+// 				$(".active-tab span").html(activeTab);
+// 				$(".previous-tab span").html(previousTab);
+// 			});
+// 		});
+	</script>
+</html>

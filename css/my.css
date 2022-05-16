@@ -1,0 +1,78 @@
+.mybody{
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+.lboxTop{
+	/* border: 1px solid #EEEEEE; */
+}
+.headimg{
+	margin: 10px auto;
+	display: block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.mname{
+	font-size: 1.2rem;
+	line-height: 40px;
+	text-align: center;
+}
+.queBut{
+	width: 120px;
+	height: 40px;
+
+	margin: 10px auto;
+	display: block;
+}
+.lboxBotton{
+	margin-top: 20px;
+	border-top: 1px solid #E1E1E1;
+}
+.dataUl{
+	
+	padding-bottom: 30px;
+}
+.dataUl li{
+	text-align: center;
+}
+.dataUl li a{
+	color: #000000;
+}
+.dataUl li .active{
+	color: #E4606D;
+}
+.dataUl li a:hover{
+	color: #E4606D;
+}
+.info table{
+	font-size: 18px;
+	/* border-bottom: 1px solid #EEEEEE; */
+}
+.info table tr{
+	margin: 30px 0;
+}
+.rboxBot{
+	border-top: 1px solid #EEEEEE;
+}
+.rboxBot a{
+	width: 120px;
+	display: block;
+	margin: 20px auto;
+}
+#order a{
+	color: #000000;
+}
+#order p{
+	font-size: 0.8rem;
+	
+}
+.color_card p{
+	color: #666;
+}
+#order strong{
+	color: #333;
+}
+#order h6{
+	margin-top: 10px;
+	padding: 10px;
+}

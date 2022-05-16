@@ -1,0 +1,54 @@
+.bigbox {
+	width: 100%;
+	height: 560px;
+	background: url(images/login.jpg) -350px;
+	position: relative;
+}
+
+.bigbox form {
+	width: 350px;
+	height: 350px;
+	display: block;
+	padding: 0 20px;
+	color: #333;
+	background-color: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	position: absolute;
+	top: 100px;
+	right: 30px;
+}
+
+.bigbox form h3 {
+	text-align: center;
+	padding: 20px 0 0 0;
+	font-size: 24px;
+}
+
+.bigbox form button {
+	display: block;
+	width: 310px;
+	margin-top: 20px;
+}
+
+.rem {
+	padding-top: 30px;
+	float: left;
+}
+
+.inp {
+	margin: 30px 0 0 0;
+}
+
+.bigbox form .rig {
+	padding-top: 30px;
+	float: right;
+}
+
+.bigbox form a {
+	color: #000;
+}
+
+.bigbox form a:hover {
+	color: #E4606D;
+}
